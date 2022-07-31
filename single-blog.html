@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+		<html lang="ru">
+		
+		<head>
+		
+			<meta charset="utf-8">
+		
+			<title></title>
+			<meta name="description" content="">
+		
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+			<!-- Template Basic Images Start -->
+			<meta property="og:image" content="path/to/image.jpg">
+			<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+			<!-- Template Basic Images End -->	
+		
+			<!-- Custom Browsers Color Start -->
+			<meta name="theme-color" content="#fff">
+			<!-- Custom Browsers Color End -->
+
+			<link rel="stylesheet" href="libs/normalize.css">
+			<link rel="stylesheet" href="libs/animate/animate.min.css">			
+			<link rel="stylesheet" href="libs/css-hamburgers/hamburgers.min.css">
+			<link rel="stylesheet" href="libs/slick/slick.css">
+			<link rel="stylesheet" href="libs/fancybox-master/jquery.fancybox.min.css">				
+			
+			<link rel="stylesheet" href="css/style.css?t=1">
+			
+		
+		</head>
+		
+		<body>	
+
+			<div class="wrap is-blog">				
+
+				<header class="header">
+
+					<div class="overlay"></div>								
+
+						<div class="navbar">
+
+							<div class="container">
+								<div class="navbar-block">
+
+									<a href="/" class="logo">holsti.by</a>		
+
+									<nav class="menu navbar__menu">	
+										<ul class="menu__list">							
+											<li class="menu__item"><a class="menu__link" href="javascript:void(0);">Контакты</a></li>								
+											<li class="menu__item active"><a class="menu__link" href="/">Блог</a></li>
+											<li class="menu__item"><a class="menu__link" href="javascript:void(0);">Доставка</a></li>
+										</ul>									
+									</nav>		
+									
+									<div class="contacts navbar__contacts">
+										<div class="social navbar__social">
+											<a href="https://web.telegram.org/z/" class="social__link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17" fill="none" class="svg replaced-svg">
+<path opacity="0.7" d="M18.6646 0.110375L0.934606 6.94737C-0.275394 7.43337 -0.268393 8.10837 0.712607 8.40937L5.26461 9.82937L15.7966 3.18437C16.2946 2.88137 16.7496 3.04437 16.3756 3.37637L7.84261 11.0774H7.84061L7.84261 11.0784L7.52861 15.7704C7.98861 15.7704 8.19161 15.5594 8.44961 15.3104L10.6606 13.1604L15.2596 16.5574C16.1076 17.0244 16.7166 16.7844 16.9276 15.7724L19.9466 1.54437C20.2556 0.305375 19.4736 -0.255625 18.6646 0.110375Z" fill="black"></path>
+</svg></a>
+										</div>
+										<a href="tel:+375447772661" class="phone navbar__phone"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" class="svg replaced-svg">
+<path opacity="0.7" d="M12.0008 12.7925L13.5507 11.2419C13.7595 11.0356 14.0236 10.8944 14.3111 10.8355C14.5985 10.7765 14.8968 10.8022 15.1699 10.9096L17.0589 11.6641C17.3349 11.7762 17.5715 11.9675 17.739 12.2138C17.9065 12.4602 17.9973 12.7507 18 13.0486V16.5098C17.9984 16.7124 17.9558 16.9127 17.8748 17.0985C17.7938 17.2842 17.6761 17.4517 17.5287 17.5907C17.3813 17.7298 17.2073 17.8376 17.0171 17.9076C16.827 17.9776 16.6247 18.0083 16.4223 17.9981C3.18528 17.1743 0.514341 5.96015 0.00921507 1.66831C-0.0142332 1.45755 0.00719085 1.24421 0.0720778 1.04233C0.136965 0.840448 0.243844 0.654598 0.385684 0.497007C0.527524 0.339416 0.701111 0.213655 0.895024 0.127997C1.08894 0.0423395 1.29878 -0.00127313 1.51075 2.82909e-05H4.85289C5.15113 0.000911431 5.44228 0.0910343 5.6889 0.258805C5.93553 0.426576 6.12634 0.664322 6.23679 0.941464L6.99102 2.83126C7.10191 3.10335 7.1302 3.4021 7.07236 3.69019C7.01452 3.97827 6.87312 4.24292 6.66581 4.45108L5.11583 6.00168C5.11583 6.00168 6.00845 12.0449 12.0008 12.7925Z" fill="black"></path>
+</svg>+375 44 777-26-61</a>
+									</div>
+
+									<div class="worktime navbar__worktime"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" class="svg replaced-svg">
+<g opacity="0.7">
+<path d="M9 3.9375C9 3.78832 8.94074 3.64524 8.83525 3.53975C8.72976 3.43426 8.58668 3.375 8.4375 3.375C8.28832 3.375 8.14524 3.43426 8.03975 3.53975C7.93426 3.64524 7.875 3.78832 7.875 3.9375V10.125C7.87503 10.2241 7.90127 10.3215 7.95106 10.4073C8.00084 10.493 8.07241 10.5641 8.1585 10.6132L12.096 12.8632C12.2252 12.9331 12.3766 12.9496 12.5179 12.9093C12.6591 12.869 12.779 12.775 12.8518 12.6475C12.9247 12.5199 12.9448 12.369 12.9078 12.2268C12.8709 12.0847 12.7798 11.9626 12.654 11.8868L9 9.79875V3.9375Z" fill="black"></path>
+<path d="M9 18C11.3869 18 13.6761 17.0518 15.364 15.364C17.0518 13.6761 18 11.3869 18 9C18 6.61305 17.0518 4.32387 15.364 2.63604C13.6761 0.948212 11.3869 0 9 0C6.61305 0 4.32387 0.948212 2.63604 2.63604C0.948212 4.32387 0 6.61305 0 9C0 11.3869 0.948212 13.6761 2.63604 15.364C4.32387 17.0518 6.61305 18 9 18ZM16.875 9C16.875 11.0886 16.0453 13.0916 14.5685 14.5685C13.0916 16.0453 11.0886 16.875 9 16.875C6.91142 16.875 4.90838 16.0453 3.43153 14.5685C1.95468 13.0916 1.125 11.0886 1.125 9C1.125 6.91142 1.95468 4.90838 3.43153 3.43153C4.90838 1.95468 6.91142 1.125 9 1.125C11.0886 1.125 13.0916 1.95468 14.5685 3.43153C16.0453 4.90838 16.875 6.91142 16.875 9Z" fill="black"></path>
+</g>
+</svg>9:00-18:00</div>
+
+									<a href="tel:+375447772661" class="mobile-phone"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" class="svg replaced-svg">
+<path opacity="0.7" d="M12.0008 12.7925L13.5507 11.2419C13.7595 11.0356 14.0236 10.8944 14.3111 10.8355C14.5985 10.7765 14.8968 10.8022 15.1699 10.9096L17.0589 11.6641C17.3349 11.7762 17.5715 11.9675 17.739 12.2138C17.9065 12.4602 17.9973 12.7507 18 13.0486V16.5098C17.9984 16.7124 17.9558 16.9127 17.8748 17.0985C17.7938 17.2842 17.6761 17.4517 17.5287 17.5907C17.3813 17.7298 17.2073 17.8376 17.0171 17.9076C16.827 17.9776 16.6247 18.0083 16.4223 17.9981C3.18528 17.1743 0.514341 5.96015 0.00921507 1.66831C-0.0142332 1.45755 0.00719085 1.24421 0.0720778 1.04233C0.136965 0.840448 0.243844 0.654598 0.385684 0.497007C0.527524 0.339416 0.701111 0.213655 0.895024 0.127997C1.08894 0.0423395 1.29878 -0.00127313 1.51075 2.82909e-05H4.85289C5.15113 0.000911431 5.44228 0.0910343 5.6889 0.258805C5.93553 0.426576 6.12634 0.664322 6.23679 0.941464L6.99102 2.83126C7.10191 3.10335 7.1302 3.4021 7.07236 3.69019C7.01452 3.97827 6.87312 4.24292 6.66581 4.45108L5.11583 6.00168C5.11583 6.00168 6.00845 12.0449 12.0008 12.7925Z" fill="black"></path>
+</svg></a>
+
+									<a class="hamburger hamburger--slider">
+										<span class="hamburger-box"><span class="hamburger-inner"></span></span>
+									</a>
+								
+								</div>
+							</div>
+
+						</div>										
+
+				</header>
+
+				<main class="main">
+
+					<div class="breadcrumbs">
+						<div class="container">
+							<div class="breadcrumbs-block">
+								<a href="/">Главная</a>
+								<svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewBox="0 0 9 16" fill="none" class="svg replaced-svg">
+<path opacity="0.5" d="M1 15L7 8L1 1" stroke="black" stroke-width="2" stroke-linecap="round"></path>
+</svg>
+								<a href="blog.html">Блог</a>
+								<svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewBox="0 0 9 16" fill="none" class="svg replaced-svg">
+<path opacity="0.5" d="M1 15L7 8L1 1" stroke="black" stroke-width="2" stroke-linecap="round"></path>
+</svg>
+								<span>Печать икон на холсте</span>
+							</div>
+						</div>
+					</div>
+
+					
+
+					<section class="section blog-hero">
+						<div class="container">
+							<div class="section-block blog-hero-block">
+								<h1 class="section-title">Печать икон на холсте</h1>					
+								<div class="blog-hero-row">
+									<div class="blog-hero__info">
+										<div class="blog-hero__note">
+											<div class="blog-hero__note-icon">!</div>
+											<div class="blog-hero__note-text">Печать абсолютно любого <br>изображения на заказ</div>
+										</div>
+										<div class="blog-hero-tizers">
+											<div class="blog-hero-tizer">
+												<div class="blog-hero-tizer__icon"><img src="./img/mona-lisa-icon.svg" alt="Alt"></div>
+												<div class="blog-hero-tizer__title">Печать любой иконы <br>на заказ</div>
+											</div>
+											<div class="blog-hero-tizer">
+												<div class="blog-hero-tizer__icon"><img src="./img/clock-2-icon.svg" alt="Alt"></div>
+												<div class="blog-hero-tizer__title">Изготовление <br>за  1 день</div>
+											</div>
+											<div class="blog-hero-tizer">
+												<div class="blog-hero-tizer__icon"><img src="./img/rain-drop-2-icon.svg" alt="Alt"></div>
+												<div class="blog-hero-tizer__title">Только натуральные <br>материалы</div>
+											</div>
+										</div>
+									</div>
+									<img src="./img/icon.png" alt="Alt">
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="section article-section">
+						<div class="container">
+							<div class="section-block article-block">								
+								<div class="article">
+									<h2>Особенности печати икон на холсте</h2>	
+									<p>Копии известных икон, напечатанные на холсте, по своей силе и значимости не уступают рукописным оригиналам. Мы распечатаем полотно в высоком разрешении, при это оно будет максимально похоже на иконы, которые находятся в православных храмах. Благодаря качественным чернилам лик святого не потускнеет со временем, и холст станет настоящей семейной реликвией. С другой стороны реализация намеченных плановых заданий играет важную роль в формировании соответствующий условий активизации. Товарищи! укрепление и развитие структуры позволяет выполнять важные задания по разработке дальнейших направлений развития. С другой стороны консультация с широким активом играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Другие преимущества печати икон:</p>	
+									<ul>
+										<li>возможность выбрать нужный размер;</li>
+										<li>быстрый срок изготовления: до 1 часа;</li>
+										<li>соблюдение религиозных канонов;</li>
+										<li>возможность напечатать любую икону;</li>
+										<li>золочение готовой иконы поталью.</li>
+									</ul>
+									<img src="./img/article-image.jpg" alt="Alt">
+									<h2>Нанесем золочение поталью</h2>
+									<p>Иконописцы, жившие много веков назад, украшали свои полотна золотом. Они наносили его на определенные участки иконы, обычно на лик святого. Это придавало изображению более торжественный и благолепный вид.</p>
+									<p>Сегодня нанести позолоту можно во время печати иконы. Студия «ЛенБагет» украшает холсты золотом для большего сходства с оригиналами. Мы используем качественную поталь и соблюдаем технологию нанесения. Благодаря этому позолота не потускнеет со временем и сохранит яркость и золотой блеск.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="section settings">
+						<div class="container">
+							<div class="section-block settings-block">
+								<h2 class="section-title">Настройки</h2>
+								<div class="settings-grid">
+									<div class="settings__category">Формат</div>
+									<div class="settings__items">	
+										<div class="setting active">
+											<div class="setting__image"><img src="./img/format/20-30.png" alt="Alt"></div>
+											<div class="setting__title">20x30</div>
+											<div class="setting__price"><span>1490</span> р.</div>
+										</div>							
+										<div class="setting">
+											<div class="setting__image"><img src="./img/format/30-30.png" alt="Alt"></div>
+											<div class="setting__title">30x30</div>
+											<div class="setting__price"><span>1690</span> р.</div>
+										</div>
+										<div class="setting">
+											<div class="setting__image"><img src="./img/format/30-40.png" alt="Alt"></div>
+											<div class="setting__title">30x40</div>
+											<div class="setting__price"><span>1890</span> р.</div>
+										</div>
+										<div class="setting">
+											<div class="setting__image"><img src="./img/format/30-60.png" alt="Alt"></div>
+											<div class="setting__title">30x60</div>
+											<div class="setting__price"><span>2090</span> р.</div>
+										</div>
+										<div class="setting">
+											<div class="setting__image"><img src="./img/format/40-55.png" alt="Alt"></div>
+											<div class="setting__title">40x55</div>
+											<div class="setting__price"><span>2290</span> р.</div>
+										</div>
+										<div class="setting">
+											<div class="setting__image"><img src="./img/format/50-50.png" alt="Alt"></div>
+											<div class="setting__title">50x50</div>
+											<div class="setting__price"><span>2490</span> р.</div>
+										</div>
+										<div class="setting">
+											<div class="setting__image"><img src="./img/format/50-75.png" alt="Alt"></div>
+											<div class="setting__title">50x75</div>
+											<div class="setting__price"><span>2690</span> р.</div>
+										</div>
+										<div class="setting">
+											<div class="setting__image"><img src="./img/format/60-90.png" alt="Alt"></div>
+											<div class="setting__title">60x90</div>
+											<div class="setting__price"><span>2890</span> р.</div>
+										</div>
+									</div>									
+								</div>	
+								
+								<div class="settings-grid">
+									<div class="settings__category">Вид натяжки</div>
+									<div class="settings__items">
+										<div class="setting active">
+											<div class="setting__image"><img src="./img/type/normal.png" alt="Alt"></div>
+											<div class="setting__title">Обычная</div>
+											<div class="setting__price"><span>1000</span> р.</div>
+										</div>
+										<div class="setting">
+											<div class="setting__image"><img src="./img/type/gallery.png" alt="Alt"></div>
+											<div class="setting__title">Галерейная</div>
+											<div class="setting__price"><span>1400</span> р.</div>
+										</div>										
+									</div>									
+								</div>	
+								
+								<div class="settings__result">Итого: <span class="accent"><span>0</span>  р.</span></div>
+
+								<a href="#callbackPrice" class="btn settings__btn">Заказать</a>
+							
+							</div>
+						</div>
+					</section>
+
+					<section class="section tizers">
+						<div class="container">
+							<div class="section-block tizers-block">
+								<h2 class="section-title">Чем мы гордимся</h2>
+								<div class="tizers-row">
+									<div class="tizer">
+										<div class="tizer__icon"><img src="./img/printer-icon.svg" alt="Alt" class="svg"></div>
+										<div class="tizer__title">Наилучшее качество печати</div>
+										<div class="tizer__text">Мы печатаем на 8-ми цветном фото-плоттере HP качеством 2880 dpi. Видна каждая деталь.</div>
+									</div>
+									<div class="tizer">
+										<div class="tizer__icon"><img src="./img/rain-drop-icon.svg" alt="Alt" class="svg"></div>
+										<div class="tizer__title">Натуральные материалы</div>
+										<div class="tizer__text">Для изготовления картин мы используем лучшие материалы. Натуральный холст. Подрамник из сосны. Пигментные чернила.</div>
+									</div>									
+									<div class="tizer">
+										<div class="tizer__icon"><img src="./img/delivery-parcel-icon.svg" alt="Alt" class="svg"></div>
+										<div class="tizer__title">Доставка товара до дверей</div>
+										<div class="tizer__text">Доставим курьером прямо к Вам в офис или квартиру в любую точку Беларуси. Пункты самовывоза более чем в 300 городах.</div>
+									</div>
+									<div class="tizer">
+										<div class="tizer__icon"><img src="./img/outline-payments-icon.svg" alt="Alt" class="svg"></div>
+										<div class="tizer__title">Оплата при получении</div>
+										<div class="tizer__text">Заказы общей суммой до 50 рублей выполняем без предоплаты.</div>
+									</div>
+								</div>								
+							</div>
+						</div>
+					</section>				
+					
+				</main>
+
+				<footer class="footer">
+					<div class="container">
+						
+						<div class="footer-block">
+									<a href="/" class="logo footer__logo">holsti.by</a>				
+
+									<nav class="menu footer__menu">	
+										<ul class="menu__list">							
+											<li class="menu__item"><a class="menu__link" href="javascript:void(0);">Контакты</a></li>								
+											<li class="menu__item"><a class="menu__link" href="blog.html">Блог</a></li>
+											<li class="menu__item"><a class="menu__link" href="javascript:void(0);">Доставка</a></li>
+										</ul>									
+									</nav>		
+									
+									<div class="contacts footer__contacts">
+										<div class="social footer__social">
+											<a href="https://web.telegram.org/z/" class="social__link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17" fill="none" class="svg replaced-svg">
+<path opacity="0.7" d="M18.6646 0.110375L0.934606 6.94737C-0.275394 7.43337 -0.268393 8.10837 0.712607 8.40937L5.26461 9.82937L15.7966 3.18437C16.2946 2.88137 16.7496 3.04437 16.3756 3.37637L7.84261 11.0774H7.84061L7.84261 11.0784L7.52861 15.7704C7.98861 15.7704 8.19161 15.5594 8.44961 15.3104L10.6606 13.1604L15.2596 16.5574C16.1076 17.0244 16.7166 16.7844 16.9276 15.7724L19.9466 1.54437C20.2556 0.305375 19.4736 -0.255625 18.6646 0.110375Z" fill="white"></path>
+</svg></a>
+										</div>
+										<a href="tel:+375447772661" class="phone footer__phone"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" class="svg replaced-svg">
+<path opacity="0.7" d="M12.0008 12.7925L13.5507 11.2419C13.7595 11.0356 14.0236 10.8944 14.3111 10.8355C14.5985 10.7765 14.8968 10.8022 15.1699 10.9096L17.0589 11.6641C17.3349 11.7762 17.5715 11.9675 17.739 12.2138C17.9065 12.4602 17.9973 12.7507 18 13.0486V16.5098C17.9984 16.7124 17.9558 16.9127 17.8748 17.0985C17.7938 17.2842 17.6761 17.4517 17.5287 17.5907C17.3813 17.7298 17.2073 17.8376 17.0171 17.9076C16.827 17.9776 16.6247 18.0083 16.4223 17.9981C3.18528 17.1743 0.514341 5.96015 0.00921507 1.66831C-0.0142332 1.45755 0.00719085 1.24421 0.0720778 1.04233C0.136965 0.840448 0.243844 0.654598 0.385684 0.497007C0.527524 0.339416 0.701111 0.213655 0.895024 0.127997C1.08894 0.0423395 1.29878 -0.00127313 1.51075 2.82909e-05H4.85289C5.15113 0.000911431 5.44228 0.0910343 5.6889 0.258805C5.93553 0.426576 6.12634 0.664322 6.23679 0.941464L6.99102 2.83126C7.10191 3.10335 7.1302 3.4021 7.07236 3.69019C7.01452 3.97827 6.87312 4.24292 6.66581 4.45108L5.11583 6.00168C5.11583 6.00168 6.00845 12.0449 12.0008 12.7925Z" fill="white"></path>
+</svg>+375 44 777-26-61</a>
+									</div>
+
+									<div class="worktime footer__worktime"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" class="svg replaced-svg">
+<g opacity="0.7">
+<path d="M9 3.9375C9 3.78832 8.94074 3.64524 8.83525 3.53975C8.72976 3.43426 8.58668 3.375 8.4375 3.375C8.28832 3.375 8.14524 3.43426 8.03975 3.53975C7.93426 3.64524 7.875 3.78832 7.875 3.9375V10.125C7.87503 10.2241 7.90127 10.3215 7.95106 10.4073C8.00084 10.493 8.07241 10.5641 8.1585 10.6132L12.096 12.8632C12.2252 12.9331 12.3766 12.9496 12.5179 12.9093C12.6591 12.869 12.779 12.775 12.8518 12.6475C12.9247 12.5199 12.9448 12.369 12.9078 12.2268C12.8709 12.0847 12.7798 11.9626 12.654 11.8868L9 9.79875V3.9375Z" fill="white"></path>
+<path d="M9 18C11.3869 18 13.6761 17.0518 15.364 15.364C17.0518 13.6761 18 11.3869 18 9C18 6.61305 17.0518 4.32387 15.364 2.63604C13.6761 0.948212 11.3869 0 9 0C6.61305 0 4.32387 0.948212 2.63604 2.63604C0.948212 4.32387 0 6.61305 0 9C0 11.3869 0.948212 13.6761 2.63604 15.364C4.32387 17.0518 6.61305 18 9 18ZM16.875 9C16.875 11.0886 16.0453 13.0916 14.5685 14.5685C13.0916 16.0453 11.0886 16.875 9 16.875C6.91142 16.875 4.90838 16.0453 3.43153 14.5685C1.95468 13.0916 1.125 11.0886 1.125 9C1.125 6.91142 1.95468 4.90838 3.43153 3.43153C4.90838 1.95468 6.91142 1.125 9 1.125C11.0886 1.125 13.0916 1.95468 14.5685 3.43153C16.0453 4.90838 16.875 6.91142 16.875 9Z" fill="white"></path>
+</g>
+</svg>9:00-18:00</div>							
+								
+
+						</div>	
+					
+					</div>
+				</footer>	
+
+				<div class="hidden">
+					
+					<div class="popup" id="callback">	
+						<div class="popup__title">Заказ печати</div>	
+		
+						<form class="form">
+							<div class="input">	
+								<input type="tel" required>	
+								<span class="input__placeholder">Номер телефона</span>															
+							</div>
+
+							<div class="popup__subtitle">Добавить изображение</div>
+
+							<div class="file-upload">
+								<input type="file" accept=".jpg, .jpeg, .webp, .png, .tif, .pdf" id="file">
+								<label for="file" class="file-upload__label"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="50" viewBox="0 0 38 50" fill="none" class="svg replaced-svg">
+<path d="M18.75 20.3125C19.1644 20.3125 19.5618 20.4771 19.8549 20.7701C20.1479 21.0632 20.3125 21.4606 20.3125 21.875V26.5625H25C25.4144 26.5625 25.8118 26.7271 26.1049 27.0201C26.3979 27.3132 26.5625 27.7106 26.5625 28.125C26.5625 28.5394 26.3979 28.9368 26.1049 29.2299C25.8118 29.5229 25.4144 29.6875 25 29.6875H20.3125V34.375C20.3125 34.7894 20.1479 35.1868 19.8549 35.4799C19.5618 35.7729 19.1644 35.9375 18.75 35.9375C18.3356 35.9375 17.9382 35.7729 17.6451 35.4799C17.3521 35.1868 17.1875 34.7894 17.1875 34.375V29.6875H12.5C12.0856 29.6875 11.6882 29.5229 11.3951 29.2299C11.1021 28.9368 10.9375 28.5394 10.9375 28.125C10.9375 27.7106 11.1021 27.3132 11.3951 27.0201C11.6882 26.7271 12.0856 26.5625 12.5 26.5625H17.1875V21.875C17.1875 21.4606 17.3521 21.0632 17.6451 20.7701C17.9382 20.4771 18.3356 20.3125 18.75 20.3125V20.3125Z" fill="#333333"></path>
+<path d="M37.5 14.0625V43.75C37.5 45.4076 36.8415 46.9973 35.6694 48.1694C34.4973 49.3415 32.9076 50 31.25 50H6.25C4.5924 50 3.00268 49.3415 1.83058 48.1694C0.65848 46.9973 0 45.4076 0 43.75V6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00268 0.65848 4.5924 0 6.25 0L23.4375 0L37.5 14.0625ZM28.125 14.0625C26.8818 14.0625 25.6895 13.5686 24.8104 12.6896C23.9314 11.8105 23.4375 10.6182 23.4375 9.375V3.125H6.25C5.4212 3.125 4.62634 3.45424 4.04029 4.04029C3.45424 4.62634 3.125 5.4212 3.125 6.25V43.75C3.125 44.5788 3.45424 45.3737 4.04029 45.9597C4.62634 46.5458 5.4212 46.875 6.25 46.875H31.25C32.0788 46.875 32.8737 46.5458 33.4597 45.9597C34.0458 45.3737 34.375 44.5788 34.375 43.75V14.0625H28.125Z" fill="#333333"></path>
+</svg></label>												
+								<div class="file-upload__name"></div>
+								<div class="file-upload__delete"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" class="svg replaced-svg">
+<path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#000"></path>
+</svg>Удалить изображение</div>
+							</div>
+
+							<button type="submit" class="btn">Заказать</button>
+						</form>
+		
+					</div>
+					
+					<div class="popup" id="callbackPrice">	
+						<div class="popup__title">Заказ холста</div>	
+		
+						<form class="form">
+							<div class="input">	
+								<input type="tel" required>	
+								<span class="input__placeholder">Номер телефона</span>															
+							</div>
+
+							<div class="popup__subtitle">Добавить изображение</div>
+
+							<div class="file-upload">
+								<input type="file" accept=".jpg, .jpeg, .webp, .png, .tif, .pdf" id="file2">
+								<label for="file2" class="file-upload__label"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="50" viewBox="0 0 38 50" fill="none" class="svg replaced-svg">
+<path d="M18.75 20.3125C19.1644 20.3125 19.5618 20.4771 19.8549 20.7701C20.1479 21.0632 20.3125 21.4606 20.3125 21.875V26.5625H25C25.4144 26.5625 25.8118 26.7271 26.1049 27.0201C26.3979 27.3132 26.5625 27.7106 26.5625 28.125C26.5625 28.5394 26.3979 28.9368 26.1049 29.2299C25.8118 29.5229 25.4144 29.6875 25 29.6875H20.3125V34.375C20.3125 34.7894 20.1479 35.1868 19.8549 35.4799C19.5618 35.7729 19.1644 35.9375 18.75 35.9375C18.3356 35.9375 17.9382 35.7729 17.6451 35.4799C17.3521 35.1868 17.1875 34.7894 17.1875 34.375V29.6875H12.5C12.0856 29.6875 11.6882 29.5229 11.3951 29.2299C11.1021 28.9368 10.9375 28.5394 10.9375 28.125C10.9375 27.7106 11.1021 27.3132 11.3951 27.0201C11.6882 26.7271 12.0856 26.5625 12.5 26.5625H17.1875V21.875C17.1875 21.4606 17.3521 21.0632 17.6451 20.7701C17.9382 20.4771 18.3356 20.3125 18.75 20.3125V20.3125Z" fill="#333333"></path>
+<path d="M37.5 14.0625V43.75C37.5 45.4076 36.8415 46.9973 35.6694 48.1694C34.4973 49.3415 32.9076 50 31.25 50H6.25C4.5924 50 3.00268 49.3415 1.83058 48.1694C0.65848 46.9973 0 45.4076 0 43.75V6.25C0 4.5924 0.65848 3.00269 1.83058 1.83058C3.00268 0.65848 4.5924 0 6.25 0L23.4375 0L37.5 14.0625ZM28.125 14.0625C26.8818 14.0625 25.6895 13.5686 24.8104 12.6896C23.9314 11.8105 23.4375 10.6182 23.4375 9.375V3.125H6.25C5.4212 3.125 4.62634 3.45424 4.04029 4.04029C3.45424 4.62634 3.125 5.4212 3.125 6.25V43.75C3.125 44.5788 3.45424 45.3737 4.04029 45.9597C4.62634 46.5458 5.4212 46.875 6.25 46.875H31.25C32.0788 46.875 32.8737 46.5458 33.4597 45.9597C34.0458 45.3737 34.375 44.5788 34.375 43.75V14.0625H28.125Z" fill="#333333"></path>
+</svg></label>												
+								<div class="file-upload__name"></div>
+								<div class="file-upload__delete"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none" class="svg replaced-svg">
+<path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#000"></path>
+</svg>Удалить изображение</div>
+							</div>
+
+							<button type="submit" class="btn">Заказать<span class="btn__price"> за <span>2690</span> р.</span></button>
+						</form>
+		
+					</div>
+
+					<a href="#thanks" data-fancybox></a>								
+
+					<div class="popup" id="thanks">	
+						<div class="popup__title">Спасибо!</div>	
+						<div class="popup__text">Ваш заказ принят, менеджер свяжется с вами в ближайшее время</div>
+					</div>			
+					
+				</div>						
+	
+			</div>	
+
+	<script src="./libs/jquery/jquery.js"></script>
+	<script src="./libs/slick/slick.min.js"></script>
+	<script src="./libs/fancybox-master/jquery.fancybox.min.js"></script>	
+	<script src="./libs/query-match-height-master/jquery.matchHeight-min.js"></script>	
+	<script src="./libs/maskedinput/maskedinput.js"></script>
+
+	<script src="js/main.js"></script>	
+
+</body>
+</html>
